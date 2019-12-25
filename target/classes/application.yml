@@ -1,0 +1,12 @@
+server:
+  port: 8989
+  servlet:
+    path: /
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 123
+
+mybatis:
+  type-aliases-package: com.blb.pojo
